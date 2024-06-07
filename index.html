@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sante Free PACS Server</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="icon" type="image/png" href="santesoft.png" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="login.css" rel="stylesheet" type="text/css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Redressed"
+            rel="stylesheet"
+        />
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="content">
+            <div>
+                <table align="center" style="text-align: center; width: auto">
+                    <tr style="color: black; background: #98d1ff">
+                        <th style="padding: 4px" colspan="6">
+                            <b>Patients</b>
+                        </th>
+                    </tr>
+
+                    <tr style="color: black; background: #c3e89e">
+                        <td class="no-mobile">#</td>
+                        <td><b>Patient Name</b></td>
+                        <td class="no-mobile"><b>Patient ID</b></td>
+                        <td><b>Sex</b></td>
+                        <td class="no-mobile"><b>Birthdate</b></td>
+                        <td><b>Actions</b></td>
+                    </tr>
+
+                    <tr>
+                        <td class="no-mobile">0001</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52613</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?E3601DC0-B2E8-4767-934B-9403C23697C2&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=5ED77523-5E29-4E95-8135-207977369D92&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?4AA4875C-3932-474F-A0C7-45046FCEA3CE&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0002</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52860</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?751DF49C-F0AF-42DA-AD66-0D3793EBEEB5&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=9856A6A7-2EF7-4D93-844E-4303273CDDFD&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?41A8E2C0-4B94-4F29-AF3F-C06EB151F4F7&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0003</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52773</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?5A9CB04E-DFC0-4B5D-AF34-25D926C398B0&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=578F85F8-7497-40CF-A340-F522B6F7A434&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?E27CFF79-51BC-4654-9D1D-F7EF235BD633&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0004</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52869</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?FF9E9BEB-40FF-47D2-9EAF-DE10843774BB&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=077D148F-732B-4C8D-981E-92FE7525A872&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?0A0B440A-4AE7-4506-81AC-5C176E8CE4D2&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0005</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">51121</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?87775A80-7EF5-4CD6-8BB0-C0AEC0F99DA4&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=A3EA8413-E049-415F-B4F9-42C8E5FD8BCD&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?1B2B4592-2E58-4319-AA23-B7ABE007C479&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0006</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52871</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?96F9065C-8398-4B39-9924-142521BA7371&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=330EC615-69BA-4666-B163-64734245724F&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?E743AB82-4BF6-479C-95FA-C509E1E3CD4A&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0007</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52837</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?0A77363E-87D3-48D5-8165-66166D5FF3CE&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=B78237A6-4D55-4203-877B-C5F513590EAD&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?343473B9-F978-4E4F-87E3-F719F145DF0F&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0008</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">47396</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?1B8AC3A8-8D41-4772-A69C-4B460DBF5D4C&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=080B2AD2-46EC-4BCA-B3BD-0232385F7DE8&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?A04DAA73-7472-4345-A2FA-0B53C0A8F6EF&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0009</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52748</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?F79F4B53-04F3-4767-A84A-BA087B468699&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=7BC6548E-7B05-488C-8895-CF2DA8630F5F&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?3232F036-B0BD-4A95-B190-0FE2C3F14936&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0010</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">48851</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?DC955D04-1321-4803-9F34-95D06CC3FBE7&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=634EE4DF-2367-44EF-A2B3-5F2097E1F631&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?C62C20C1-14DB-45F6-A30A-FDC0A9F75A43&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0011</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">11063</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?B8276020-EB0B-41CF-9C27-435B1274772B&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=3F596243-53FA-410A-A8F9-353FC0BD5B77&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?CCCAA834-9D0F-4239-A3FD-978D35CF79BD&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0012</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">51820</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?D67A5A60-1B9B-4031-8B4C-473838DE135E&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=1F2F5F6A-A0C6-498C-9E49-7FC32EADC381&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?33F98920-B0D5-48CB-96AB-B94988830A2D&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0013</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52792</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?DD21B567-A18A-426F-9036-481AC8352124&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=0504CCB5-9371-4CCD-9E19-D1D2B49E6C77&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?28F368C4-01F8-45DF-A2B2-B906C5DACA32&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0014</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52828</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?E2AA3013-C186-47E9-B08D-4AEFC18F9282&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=F9B746AC-09E2-4ACD-8C4B-C05CF93F04CC&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?9D529030-66FA-4D40-8DF8-82EF6AD565F1&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0015</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52853</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?6574F83F-BC35-4BF7-8FF9-C59EF10B7593&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=3430636C-FC5A-4F87-81D6-2010DB967FDB&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?222F6425-DA50-42BB-8520-BA7ED9DDDE3D&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0016</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">20699</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?F650EBCB-CC50-4234-8378-C89554103A66&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=77BD2143-CE79-4AC3-B3B5-B874CE0FF106&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?BB5D4928-3A3F-49D1-86F9-FE5B764744BF&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0017</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52867</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?D2F7CCC2-3CA6-4FFA-AC53-28D20E2D4050&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=BA92E549-00A1-4A2F-9852-2D9E68E2A323&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?712FEC7F-2B2F-4A08-BB48-F59FFAF1655D&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0018</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52863</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?F30CCF47-28EB-47C2-A98F-AC19BD964BE8&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=90F308F5-0ABE-47E7-A871-7F68F21CC02C&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?ED1F283D-ADD3-413E-9726-B00584C1B93D&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0019</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">51622</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?0C1E274D-0B34-4473-9743-C85D43719A55&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=9806B17E-B0BC-4C8D-A245-477612AEE12D&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?9CEC02DE-0F59-49C7-98D4-BF8877350AC9&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-mobile">0020</td>
+                        <td>ANONYMOUS</td>
+                        <td class="no-mobile">52864</td>
+                        <td>F</td>
+                        <td class="no-mobile"></td>
+                        <td>
+                            <div id="forms">
+                                <table>
+                                    <tr>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?3366BEB9-7928-433A-A437-EE68730C16A3&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="zip.png"
+                                                    title="Download patient's studies as zip file"
+                                                    alt="Download patient's studies as zip file"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="santedm://download?url=localhost:3000&ssl=no&action=919F7209-B3E3-4E15-8579-775B4203B93C&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="webdownloader.png"
+                                                    title="Download patient's studies with Sante Web Downloader"
+                                                    alt="Download patient's studies with Sante Web Downloader"
+                                            /></a>
+                                        </td>
+                                        <td style="border: 0"></td>
+                                        <td style="border: 0">
+                                            <a
+                                                href="./action?10878932-E40D-46E1-AE05-7470E0577962&session_id=YviSG5Lf1W2J"
+                                                ><img
+                                                    src="view.png"
+                                                    title="View patient's studies"
+                                                    alt="View patient's studies"
+                                            /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <input
+                    type="button"
+                    onclick="goBack()"
+                    value="Go Back"
+                    style="padding-left: 20px; padding-right: 20px"
+                />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+    </body>
+</html>
